@@ -23,4 +23,5 @@ Examples:
   node index.js -h anypoint.mulesoft.com -o 000a0000-0ab0-1122-1a1b-000000000000 -a my-great-api -v v1 -u myusername -p mypassword -d /downloads
 
 Notes:
+
     1. Currently the '--downloadfolder' value must already exist in the application's directory structure.  I have provided a folder named '/downloads'.  See the example.
