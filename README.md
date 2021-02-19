@@ -1,5 +1,6 @@
 # get-raml-zip
 
+## Install
 git clone https://github.com/eymardcm/get-raml-zip.git
 
 cd get-raml-zip
@@ -8,7 +9,7 @@ npm i
 
 node .\index.js --help
 
-Options:
+## Options:
 
         --help              Show help                                                         [boolean]
         --version           Show version number                                               [boolean]
@@ -22,7 +23,7 @@ Options:
                                          
 
 
-Examples:
+## Examples:
 
   node index.js -h anypoint.mulesoft.com -o 000a0000-0ab0-1122-1a1b-000000000000 -a my-great-api -v v1 -u myusername -p mypassword -d /downloads
 
