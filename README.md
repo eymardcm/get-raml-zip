@@ -4,7 +4,7 @@ git clone https://github.com/eymardcm/get-raml-zip.git
 
 cd get-raml-zip
 
-npm install
+npm i
 
 node .\index.js --help
 
