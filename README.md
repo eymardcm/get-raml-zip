@@ -1,5 +1,9 @@
 # get-raml-zip
 
+git clone https://github.com/eymardcm/get-raml-zip.git
+
+cd get-raml-zip
+
 npm install
 
 node .\index.js --help
