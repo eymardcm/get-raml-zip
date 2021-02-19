@@ -3,6 +3,7 @@
 npm install
 
 C:\Users\chad.eymard\source\repos\get-raml-zip> node .\app.js --help
+
 Options:
       --help              Show help                                    [boolean]
       --version           Show version number                          [boolean]
