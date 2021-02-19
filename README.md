@@ -2,24 +2,20 @@
 
 npm install
 
-C:\Users\chad.eymard\source\repos\get-raml-zip> node .\app.js --help
+node .\app.js --help
 
 Options:
 
-      --help              Show help                                    [boolean]
-      --version           Show version number                          [boolean]
-    -h, --anypoint-host     Anypoint platform hostname         [string] [required]
-    -o, --orgid             Anypoint Organization Id           [string] [required]
-    -a, --assetid           Asset Id of the RAML spec you intend to retrieve
-                                                             [string] [required]
-    -v, --assetProdVer      Asset Product Version of RAML spec you intend to
-                          retrieve                           [string] [required]
-    -u, --anypointusername  An Anypoint Platform Username that has access to the
-                          RAML spec                          [string] [required]
-    -p, --anypointpassword  An Anypoint Platform password associated with the
-                          username                           [string] [required]
-    -d, --downloadfolder    Name of the download folder you want to receive your
-                          downloaded RAML spec               [string] [required]
+        --help              Show help                                                         [boolean]
+        --version           Show version number                                               [boolean]
+    -h, --anypoint-host     Anypoint platform hostname                                        [string] [required]
+    -o, --orgid             Anypoint Organization Id                                          [string] [required]
+    -a, --assetid           Asset Id of the RAML spec you intend to retrieve                  [string] [required]
+    -v, --assetProdVer      Asset Product Version of RAML spec you intend to retrieve         [string] [required]                           
+    -u, --anypointusername  An Anypoint Platform Username that has access to the RAML spec              [string] [required]
+    -p, --anypointpassword  An Anypoint Platform password associated with the username                  [string] [required]
+    -d, --downloadfolder    Name of the download folder you want to receive your downloaded RAML spec   [string] [required]
+                                         
 
 
 Examples:
