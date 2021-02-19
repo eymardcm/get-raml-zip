@@ -1,0 +1,16 @@
+{
+  "name": "get-raml-zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postman-request": "^2.88.1-postman.28",
+    "yargs": "^16.2.0"
+  }
+}
