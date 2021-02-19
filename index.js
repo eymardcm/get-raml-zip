@@ -9,9 +9,9 @@ var argv = require('yargs/yargs')(process.argv.slice(2))
     
     .option("h", {
         // The alias of -w is --width.
-        alias: "anypoint-host",
+        alias: "anypointhost",
         desc: "Anypoint platform hostname",
-        demandOption: "anypoint-host is required",
+        demandOption: "anypointhost is required",
         type: "string"
       })
       .option("o", {
@@ -30,9 +30,9 @@ var argv = require('yargs/yargs')(process.argv.slice(2))
       })
       .option("v", {
         // The alias of -w is --width.
-        alias: "assetProdVer",
+        alias: "assetprodver",
         desc: "Asset Product Version of RAML spec you intend to retrieve",
-        demandOption: "assetProdVer is required",
+        demandOption: "assetprodver is required",
         type: "string"
       })
       .option("u", {
