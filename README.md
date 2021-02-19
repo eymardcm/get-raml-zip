@@ -19,5 +19,5 @@ Options:
 
 
 Examples:
-  node app.js -h anypoint.mulesoft.com -o 000a0000-0ab0-1122-1a1b-000000000000
-  -a my-great-api -v v1 -u myusername -p mypassword -d /downloads
+
+  node app.js -h anypoint.mulesoft.com -o 000a0000-0ab0-1122-1a1b-000000000000 -a my-great-api -v v1 -u myusername -p mypassword -d /downloads
